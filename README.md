@@ -29,10 +29,10 @@ see config/sets.yaml
 Example logstash config
 -----------------------
 
-  zeromq {
-    address => ["tcp://0.0.0.0:2112"]
-    mode => "server"
-    topology => "pushpull"
-    tags => ["mynginxlogs"]
-  }
+    zeromq {
+      address => ["tcp://0.0.0.0:2112"]
+      mode => "server"
+      topology => "pushpull"
+      tags => ["mynginxlogs"]
+    }
 
