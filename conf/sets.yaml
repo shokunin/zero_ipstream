@@ -1,0 +1,6 @@
+---
+:servers:
+- 127.0.0.1
+- 172.16.15.192
+:port: 2112
+:ip_field_name: clientip
